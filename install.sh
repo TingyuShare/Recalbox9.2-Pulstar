@@ -1,6 +1,6 @@
 #!/bin/bash
 ###########################################################################
-# Repositorio: Recalbox-9.1-Pulstar-Bios 2024
+# Repositorio: Recalbox-9.2-Pulstar-Bios 2024
 # Por: Raspberry Pi Buenos Aires (https://sites.google.com/view/raspberrypibuenosaires/)
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
@@ -11,11 +11,11 @@ echo "Getting Read and Write system"
 mount -o remount,rw /
 mount -o remount,rw /boot
 echo
-RUTA=https://raw.githubusercontent.com/PIBSAS/Recalbox9.1-Pulstar/main/
-#RUTA_DUE=https://raw.githubusercontent.com/PIBSAS/Recalbox9.1-Pulstar/main/roms/neogeo/
+RUTA=https://raw.githubusercontent.com/PIBSAS/Recalbox9.2-Pulstar/main/
 echo "Limpiando las bios basura que te descargaste de otro lado o las mismas si se te corto internet"
 echo "Cleaning the garbage bios downloaded from other sites or from this site but if you internet shutdown in the process"
 rm ../roms/neogeo/neogeo.zip
+rm ../bios/lynx/lynxboot.img
 rm ../bios/3do_arcade_saot.bin
 rm ../bios/5200.rom
 rm ../bios/64DD_IPL.bin
@@ -308,7 +308,7 @@ wget -c "${RUTA}bios/ATARIXL.ROM" -P ../bios/
 echo
 echo "ATARI LYNX"
 echo
-wget -c "${RUTA}bios/lynxboot.img" -P ../bios/
+wget -c "${RUTA}bios/lynxboot.img" -P ../bios/lynx/
 echo
 echo "ATARI ST/STTE/MEGASTE/TT/FALCON"
 echo
