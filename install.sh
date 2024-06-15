@@ -15,45 +15,44 @@ RUTA=https://raw.githubusercontent.com/PIBSAS/Recalbox9.2-Pulstar/main/
 echo "Limpiando las bios basura que te descargaste de otro lado o las mismas si se te corto internet"
 echo "Cleaning the garbage bios downloaded from other sites or from this site but if you internet shutdown in the process"
 rm ../roms/neogeo/neogeo.zip
-rm ../bios/lynx/lynxboot.img
-rm ../bios/3do_arcade_saot.bin
-rm ../bios/5200.rom
-rm ../bios/64DD_IPL.bin
-rm ../bios/"7800 BIOS (U).rom"
-rm ../bios/"7800 BIOS (E).rom"
+rm ../bios/3do/3do_arcade_saot.bin
+rm ../bios/atari5200/5200.rom
+#rm ../bios/64DD_IPL.bin
+rm ../bios/atari7800/"7800 BIOS (U).rom"
+rm ../bios/atari7800/"7800 BIOS (E).rom"
 rm ../bios/apple2gs1.rom
 rm ../bios/apple2gs3.rom
-rm ../bios/ATARIBAS.ROM
-rm ../bios/ATARIOSA.ROM
-rm ../bios/ATARIOSB.ROM
-rm ../bios/ATARIXL.ROM
-rm ../bios/bios7.bin
-rm ../bios/bios9.bin
-rm ../bios/bios_CD_E.bin
-rm ../bios/bios_CD_J.bin
-rm ../bios/bios_CD_U.bin
-rm ../bios/bios_E.sms
-rm ../bios/bios.gg
-rm ../bios/bios_J.sms
-rm ../bios/bios_MD.bin
-rm ../bios/bios.min
-rm ../bios/bios_U.sms
-rm ../bios/bootloader-dbvz.rom
-rm ../bios/BS-X.bin
-rm ../bios/c52.bin
-rm ../bios/dc_boot.bin
-rm ../bios/dc_flash.bin
-rm ../bios/disksys.rom
-rm ../bios/exec.bin
-rm ../bios/firmware.bin
-rm ../bios/g7400.bin
-rm ../bios/gba_bios.bin
-rm ../bios/gb_bios.bin
-rm ../bios/gbc_bios.bin
-rm ../bios/gexpress.pce
-rm ../bios/goldstar.bin
-rm ../bios/grom.bin
-rm ../bios/jopac.bin
+rm ../bios/atari800/ATARIBAS.ROM
+rm ../bios/atari800/ATARIOSA.ROM
+rm ../bios/atari800/ATARIOSB.ROM
+rm ../bios/atari800/ATARIXL.ROM
+rm ../bios/nds/bios7.bin
+rm ../bios/nds/bios9.bin
+rm ../bios/segacd/bios_CD_E.bin
+rm ../bios/segacd/bios_CD_J.bin
+rm ../bios/segacd/bios_CD_U.bin
+rm ../bios/mastersystem/bios_E.sms
+rm ../bios/gamegear/bios.gg
+rm ../bios//mastersystem/bios_J.sms
+rm ../bios/megadrive/bios_MD.bin
+rm ../bios/pokemini/bios.min
+rm ../bios//mastersystem/bios_U.sms
+rm ../bios/palm/bootloader-dbvz.rom
+rm ../bios/satellaview/BS-X.bin
+rm ../bios/o2em/c52.bin
+#rm ../bios/dc_boot.bin
+#rm ../bios/dc_flash.bin
+rm ../bios/fds/disksys.rom
+rm ../bios/intellivision/exec.bin
+rm ../bios/nds/firmware.bin
+rm ../bios/o2em/g7400.bin
+rm ../bios/gba/gba_bios.bin
+rm ../bios/gb/gb_bios.bin
+rm ../bios/gbc/gbc_bios.bin
+rm ../bios/pcengine/gexpress.pce
+rm ../bios/3do/goldstar.bin
+rm ../bios/intellivision/grom.bin
+rm ../bios/o2em/jopac.bin
 rm ../bios/kick33180.A500
 rm ../bios/kick34005.A500
 rm ../bios/kick34005.CDTV
@@ -64,46 +63,48 @@ rm ../bios/kick40060.CD32.ext
 rm ../bios/kick40063.A600
 rm ../bios/kick40068.A1200
 rm ../bios/kick40068.A4000
-rm ../bios/lynxboot.img
-rm ../bios/mpr-17933.bin
-rm ../bios/mpr-18811-mx.ic1
-rm ../bios/mpr-19367-mx.ic1
+rm ../bios/lynx/lynxboot.img
+rm ../bios/saturn/mpr-17933.bin
+rm ../bios/saturn/mpr-18811-mx.ic1
+rm ../bios/saturn/mpr-19367-mx.ic1
 rm ../bios/neocdz.zip
 rm ../bios/neogeo.zip
-rm ../bios/o2rom.bin
-rm ../bios/palmos41-en-m515.rom
-rm ../bios/panafz10.bin
-rm ../bios/panafz10e-anvil.bin
-rm ../bios/panafz10e-anvil-norsa.bin
-rm ../bios/panafz10ja-anvil-kanji.bin
-rm ../bios/panafz10-norsa.bin
-rm ../bios/panafz1.bin
-rm ../bios/panafz1j.bin
-rm ../bios/panafz1j-kanji.bin
-rm ../bios/panafz1j-norsa.bin
-rm ../bios/panafz1-kanji.bin
-rm ../bios/pcfx.rom
+rm ../bios/o2em/o2rom.bin
+rm ../bios/palm/palmos41-en-m515.rom
+rm ../bios/3do/panafz10.bin
+rm ../bios/3do/panafz10e-anvil.bin
+rm ../bios/3do/panafz10e-anvil-norsa.bin
+rm ../bios/3do/panafz10ja-anvil-kanji.bin
+rm ../bios/3do/panafz10-norsa.bin
+rm ../bios/3do/panafz1.bin
+rm ../bios/3do/panafz1j.bin
+rm ../bios/3do/panafz1j-kanji.bin
+rm ../bios/3do/panafz1j-norsa.bin
+rm ../bios/3do/panafz1-kanji.bin
+rm ../bios/pcfx/pcfx.rom
 rm ../bios/ps1_rom.bin
-rm ../bios/sanyotry.bin
-rm ../bios/saturn_bios.bin
+rm ../bios/3do/sanyotry.bin
+rm ../bios/saturn/saturn_bios.bin
 rm ../bios/scph1001.bin
 rm ../bios/scph101.bin
 rm ../bios/scph5500.bin
 rm ../bios/scph5501.bin
 rm ../bios/scph5502.bin
 rm ../bios/scph7001.bin
-rm ../bios/sega_101.bin
-rm ../bios/sgb_bios.bin
-rm ../bios/sl31253.bin
-rm ../bios/sl31254.bin
-rm ../bios/sl90025.bin
-rm ../bios/STBIOS.bin
-rm ../bios/stvbios.zip
-rm ../bios/syscard1.pce
-rm ../bios/syscard2.pce
-rm ../bios/syscard3.pce
+rm ../bios/saturn/sega_101.bin
+rm ../bios/sgb/sgb_bios.bin
+rm ../bios/channelf/sl31253.bin
+rm ../bios/channelf/sl31254.bin
+rm ../bios/channelf/sl90025.bin
+rm ../bios/sufami/STBIOS.bin
+rm ../bios/saturn/stvbios.zip
+rm ../bios/pcenginecd/syscard1.pce
+rm ../bios/pcenginecd/syscard2.pce
+rm ../bios/pcenginecd/syscard2u.pce
+rm ../bios/pcenginecd/syscard3u.pce
+rm ../bios/pcenginecd/syscard3.pce
 rm ../bios/atarist/tos.img
-rm ../bios/upd7801g.s01
+rm ../bios/scv/upd7801g.s01
 rm ../bios/atarist/falcon.img
 rm ../bios/atarist/megaste.img
 rm ../bios/atarist/ste.img
@@ -238,7 +239,6 @@ rm ../bios/xmil/IPLROM.X1
 rm ../bios/xmil/IPLROM.X1T
 echo "Sistema listo para su correcta instalacion"
 echo "System ready for right installation"
-
 echo "Obteniendo Bios---Getting Bios, be patient"
 echo
 echo "AMIGA 1200 (AGA)"
@@ -277,7 +277,6 @@ echo "APPLE IIGS"
 echo
 wget -c "${RUTA}bios/apple2gs1.rom" -P ../bios/
 echo
-echo
 wget -c "${RUTA}bios/apple2gs3.rom" -P ../bios/
 echo
 echo "APPLE MACINTOSH"
@@ -288,23 +287,23 @@ wget -c "${RUTA}bios/macintosh/MinivMacBootv2.dsk" -P ../bios/macintosh/
 echo
 echo "ATARI 5200"
 echo
-wget -c "${RUTA}bios/5200.rom" -P ../bios/
+wget -c "${RUTA}bios/5200.rom" -P ../bios/atari5200/
 echo
 echo "ATARI 7800"
 echo
-wget -c "${RUTA}bios/7800 BIOS (U).rom" -P ../bios/
+wget -c "${RUTA}bios/7800 BIOS (U).rom" -P ../bios/atari7800/
 echo
-wget -c "${RUTA}bios/7800 BIOS (E).rom" -P ../bios/
+wget -c "${RUTA}bios/7800 BIOS (E).rom" -P ../bios/atari7800/
 echo
 echo "ATARI 8BITS"
 echo
-wget -c "${RUTA}bios/ATARIBAS.ROM" -P ../bios/
+wget -c "${RUTA}bios/ATARIBAS.ROM" -P ../bios/atari800/
 echo
-wget -c "${RUTA}bios/ATARIOSA.ROM" -P ../bios/
+wget -c "${RUTA}bios/ATARIOSA.ROM" -P ../bios/atari800/
 echo
-wget -c "${RUTA}bios/ATARIOSB.ROM" -P ../bios/
+wget -c "${RUTA}bios/ATARIOSB.ROM" -P ../bios/atari800/
 echo
-wget -c "${RUTA}bios/ATARIXL.ROM" -P ../bios/
+wget -c "${RUTA}bios/ATARIXL.ROM" -P ../bios/atari800/
 echo
 echo "ATARI LYNX"
 echo
@@ -394,16 +393,6 @@ wget -c "${RUTA}bios/dragon/sdose6.rom" -P ../bios/dragon/
 echo
 wget -c "${RUTA}bios/dragon/sdose8.rom" -P ../bios/dragon/
 echo
-echo "DREAMCAST"
-echo
-wget -c "${RUTA}bios/dc_boot.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/dc_flash.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/dc/dc_boot.bin" -P ../bios/dc/
-echo
-wget -c "${RUTA}bios/dc/dc_flash.bin" -P ../bios/dc/
-echo
 echo "ELEKTRONIKA BK"
 echo
 wget -c "${RUTA}bios/bk/B11M_BOS.ROM" -P ../bios/bk/
@@ -422,21 +411,11 @@ wget -c "${RUTA}bios/bk/MONIT10.ROM" -P ../bios/bk/
 echo
 echo "FAIRCHILD CHANNEL-F"
 echo
-wget -c "${RUTA}bios/sl31254.bin" -P ../bios/
+wget -c "${RUTA}bios/sl31254.bin" -P ../bios/channelf/
 echo
-wget -c "${RUTA}bios/sl31253.bin" -P ../bios/
+wget -c "${RUTA}bios/sl31253.bin" -P ../bios/channelf/
 echo
-wget -c "${RUTA}bios/sl90025.bin" -P ../bios/
-echo
-echo "FAMILY COMPUTER DISK SYSTEM"
-echo
-wget -c "${RUTA}bios/disksys.rom" -P ../bios/
-echo
-echo "GAME BOY ADVANCE"
-echo
-wget -c "${RUTA}bios/gba_bios.bin" -P ../bios/
-echo
-echo "open_gba_bios.bin by default came in the OS"
+wget -c "${RUTA}bios/sl90025.bin" -P ../bios/channelf/
 echo
 echo "MSX FAMILLY bios by default came in the OS"
 echo 
@@ -444,98 +423,17 @@ echo "MSX AND MSX2 SERIES bios by default came in the OS"
 echo
 echo "MAGNAVOX ODYSSEY"
 echo
-wget -c "${RUTA}bios/o2rom.bin" -P ../bios/
+wget -c "${RUTA}bios/o2rom.bin" -P ../bios/o2em/
 echo
-wget -c "${RUTA}bios/c52.bin" -P ../bios/
+wget -c "${RUTA}bios/c52.bin" -P ../bios/o2em/
 echo
 echo "MATTEL INTELLIVISION"
 echo
-wget -c "${RUTA}bios/exec.bin" -P ../bios/
+wget -c "${RUTA}bios/exec.bin" -P ../bios/intellivision/
 echo
-wget -c "${RUTA}bios/grom.bin" -P ../bios/
+wget -c "${RUTA}bios/grom.bin" -P ../bios/intellivision/
 echo
-echo "NEC PC-ENGINE"
-echo
-wget -c "${RUTA}bios/gexpress.pce" -P ../bios/
-echo
-echo "NEC PC-ENGINE CD"
-echo
-wget -c "${RUTA}bios/syscard3.pce" -P ../bios/
-echo
-wget -c "${RUTA}bios/syscard1.pce" -P ../bios/
-echo
-wget -c "${RUTA}bios/syscard2.pce" -P ../bios/
-echo
-echo "gexpress.pce already downloaded is the same of NEC PC-ENGINE"
-echo
-echo "NEC PC-FX"
-echo
-wget -c "${RUTA}bios/pcfx.rom" -P ../bios/
-echo
-echo "NEC SUPERGRAFX"
-echo
-echo "gexpress.pce already downloaded is the same of NEC PC-ENGINE"
-echo
-echo "NAOMI"
-echo
-wget -c "${RUTA}bios/dc/naomi.zip" -P ../bios/dc/
-echo
-wget -c "${RUTA}bios/dc/airlbios.zip" -P ../bios/dc/
-echo
-wget -c "${RUTA}bios/dc/hod2bios.zip" -P ../bios/dc/
-echo
-echo "NAOMI GD-ROM"
-echo
-wget -c "${RUTA}bios/dc/naomigd.zip" -P ../bios/dc/
-echo
-echo "NINTENDO 64DD"
-echo
-wget -c "${RUTA}bios/64DD_IPL.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/Mupen64plus/IPL.n64" -P ../bios/Mupen64plus/
-echo
-echo "NINTENDO DS"
-echo
-wget -c "${RUTA}bios/bios7.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/bios9.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/firmware.bin" -P ../bios/
-echo
-echo "NINTENDO GAMEBOY"
-echo
-wget -c "${RUTA}bios/gb_bios.bin" -P ../bios/
-echo
-echo "dmg_boot.bin by default came in the OS"
-echo
-echo "NINTENDO GAMEBOY COLOR"
-echo
-wget -c "${RUTA}bios/gbc_bios.bin" -P ../bios/
-echo
-echo "cgb_boot.bin by default came in the OS"
-echo
-echo "NINTENDO GAMECUBE"
-echo
-wget -c "${RUTA}bios/gamecube/EUR/IPL.bin" -P ../bios/gamecube/EUR/
-echo
-wget -c "${RUTA}bios/gamecube/JAP/IPL.bin" -P ../bios/gamecube/JAP/
-echo
-wget -c "${RUTA}bios/gamecube/USA/IPL.bin" -P ../bios/gamecube/USA/
-echo
-echo "NINTENDO SUPER GAMEBOY"
-echo
-wget -c "${RUTA}bios/sgb_bios.bin" -P ../bios/
-echo
-echo "sgb_boot.bin by default came in the OS"
-echo
-echo "sgb2_boot.bin by default came in the OS"
-echo
-wget -c "${RUTA}bios/sgb/SGB1.sfc" -P ../bios/sgb/
-echo
-echo
-wget -c "${RUTA}bios/sgb/SGB2.sfc" -P ../bios/sgb/
-echo
-echo "PC-8800 SERIES"
+echo "NEC PC-8800 SERIES"
 echo
 wget -c "${RUTA}bios/quasi88/n88.rom" -P ../bios/quasi88/
 echo
@@ -553,7 +451,7 @@ wget -c "${RUTA}bios/quasi88/disk.rom" -P ../bios/quasi88/
 echo
 wget -c "${RUTA}bios/quasi88/n88knj1.rom" -P ../bios/quasi88/
 echo
-echo "PC-9800 SERIES"
+echo "NEC PC-9800 SERIES"
 echo
 wget -c "${RUTA}bios/np2kai/bios.rom" -P ../bios/np2kai/
 echo
@@ -577,39 +475,133 @@ wget -c "${RUTA}bios/np2kai/2608_tom.wav" -P ../bios/np2kai/
 echo
 wget -c "${RUTA}bios/np2kai/2608_top.wav" -P ../bios/np2kai/
 echo
+echo "NEC PC-ENGINE"
+echo
+wget -c "${RUTA}bios/gexpress.pce" -P ../bios/pcengine/
+echo
+echo "NEC PC-ENGINE CD"
+echo
+wget -c "${RUTA}bios/syscard3.pce" -P ../bios/pcenginecd/
+echo
+wget -c "${RUTA}bios/syscard1.pce" -P ../bios/pcenginecd/
+echo
+wget -c "${RUTA}bios/syscard2.pce" -P ../bios/pcenginecd/
+echo
+wget -c "${RUTA}bios/syscard2u.pce" -P ../bios/pcenginecd/
+echo
+wget -c "${RUTA}bios/syscard3u.pce" -P ../bios/pcenginecd/
+echo
+echo "gexpress.pce already downloaded is the same of NEC PC-ENGINE"
+echo
+echo "NEC PC-FX"
+echo
+wget -c "${RUTA}bios/pcfx.rom" -P ../bios/pcfx/
+echo
+echo "NEC SUPERGRAFX"
+echo
+echo "gexpress.pce already downloaded is the same of NEC PC-ENGINE"
+echo
+echo "NINTENDO 64DD"
+echo
+#wget -c "${RUTA}bios/64DD_IPL.bin" -P ../bios/
+echo
+wget -c "${RUTA}bios/Mupen64plus/IPL.n64" -P ../bios/Mupen64plus/
+echo
+echo "NINTENDO DS"
+echo
+wget -c "${RUTA}bios/bios7.bin" -P ../bios/nds/
+echo
+wget -c "${RUTA}bios/bios9.bin" -P ../bios/nds/
+echo
+wget -c "${RUTA}bios/firmware.bin" -P ../bios/nds/
+echo
+echo "NINTENDO FAMILY COMPUTER DISK SYSTEM"
+echo
+wget -c "${RUTA}bios/disksys.rom" -P ../bios/fds/
+echo
+echo "NINTENDO GAMEBOY"
+echo
+wget -c "${RUTA}bios/gb_bios.bin" -P ../bios/gb/
+echo
+echo "dmg_boot.bin by default came in the OS"
+echo
+echo "NINTENDO GAME BOY ADVANCE"
+echo
+wget -c "${RUTA}bios/gba_bios.bin" -P ../bios/gba/
+echo
+echo "open_gba_bios.bin by default came in the OS"
+echo
+echo "NINTENDO GAMEBOY COLOR"
+echo
+wget -c "${RUTA}bios/gbc_bios.bin" -P ../bios/gbc/
+echo
+echo "cgb_boot.bin by default came in the OS"
+echo
+echo "NINTENDO GAMECUBE"
+echo
+wget -c "${RUTA}bios/gamecube/EUR/IPL.bin" -P ../bios/gamecube/EUR/
+echo
+wget -c "${RUTA}bios/gamecube/JAP/IPL.bin" -P ../bios/gamecube/JAP/
+echo
+wget -c "${RUTA}bios/gamecube/USA/IPL.bin" -P ../bios/gamecube/USA/
+echo
+echo "NINTENDO POKEMON MINI"
+echo
+wget -c "${RUTA}bios/bios.min" -P ../bios/pokemini/
+echo
+echo "NINTENDO SATELLAVIEW"
+echo
+wget -c "${RUTA}bios/BS-X.bin" -P ../bios/satellaview/
+echo
+echo "NINTENDO SUFAMI TURBO"
+echo
+wget -c "${RUTA}bios/STBIOS.bin" -P ../bios/sufami/
+echo
+echo "NINTENDO SUPER GAMEBOY"
+echo
+wget -c "${RUTA}bios/sgb_bios.bin" -P ../bios/sgb/
+echo
+echo "sgb_boot.bin by default came in the OS"
+echo
+echo "sgb2_boot.bin by default came in the OS"
+echo
+wget -c "${RUTA}bios/sgb/SGB1.sfc" -P ../bios/sgb/
+echo
+wget -c "${RUTA}bios/sgb/SGB2.sfc" -P ../bios/sgb/
+echo
 echo "PALM PILOT"
 echo
-wget -c "${RUTA}bios/palmos41-en-m515.rom" -P ../bios/
+wget -c "${RUTA}bios/palmos41-en-m515.rom" -P ../bios/palm/
 echo
-wget -c "${RUTA}bios/bootloader-dbvz.rom" -P ../bios/
+wget -c "${RUTA}bios/bootloader-dbvz.rom" -P ../bios/palm/
 echo
 echo "PANASONIC 3DO"
 echo
-wget -c "${RUTA}bios/panafz1.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz1.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/panafz1j.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz1j.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/panafz1j-norsa.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz1j-norsa.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/panafz10.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz10.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/panafz10-norsa.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz10-norsa.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/panafz10e-anvil.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz10e-anvil.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/panafz10e-anvil-norsa.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz10e-anvil-norsa.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/goldstar.bin" -P ../bios/
+wget -c "${RUTA}bios/goldstar.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/sanyotry.bin" -P ../bios/
+wget -c "${RUTA}bios/sanyotry.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/3do_arcade_saot.bin" -P ../bios/
+wget -c "${RUTA}bios/3do_arcade_saot.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/panafz1-kanji.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz1-kanji.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/panafz1j-kanji.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz1j-kanji.bin" -P ../bios/3do/
 echo
-wget -c "${RUTA}bios/panafz10ja-anvil-kanji.bin" -P ../bios/
+wget -c "${RUTA}bios/panafz10ja-anvil-kanji.bin" -P ../bios/3do/
 echo
 echo "PENTAGON 128/512/1024 (ZX SPECTRUM CLONE)"
 echo
@@ -629,39 +621,19 @@ wget -c "${RUTA}bios/cdi/cdibios.zip" -P ../bios/cdi/
 echo
 wget -c "${RUTA}bios/cdi/cdimono2.zip" -P ../bios/cdi/
 echo
-echo "PLAYSTATION"
+echo "PHILIPS VIDEOPAC+"
 echo
-wget -c "${RUTA}bios/scph5500.bin" -P ../bios/
+wget -c "${RUTA}bios/g7400.bin" -P ../bios/o2em/
 echo
-wget -c "${RUTA}bios/scph5501.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/scph5502.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/scph101.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/scph7001.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/scph1001.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/ps1_rom.bin" -P ../bios/
-echo
-echo "PLAYSTATION 2"
-echo
-wget -c "${RUTA}bios/ps2/ps2-0230a-20080220.bin" -P ../bios/ps2/
-echo
-wget -c "${RUTA}bios/ps2/ps2-0230e-20080220.bin" -P ../bios/ps2/
-echo
-wget -c "${RUTA}bios/ps2/ps2-0230h-20080220.bin" -P ../bios/ps2/
-echo
-wget -c "${RUTA}bios/ps2/ps2-0230j-20080220.bin" -P ../bios/ps2/
-echo
-echo "POKEMON MINI"
-echo
-wget -c "${RUTA}bios/bios.min" -P ../bios/
+wget -c "${RUTA}bios/jopac.bin" -P ../bios/o2em/
 echo
 echo "SNK NEO-GEO"
 echo
 wget -c "${RUTA}roms/neogeo.zip" -P ../roms/neogeo/
+echo
+wget -c "${RUTA}bios/geolith/aes.zip" -P ../bios/geolith/
+echo
+wget -c "${RUTA}roms/neogeo.zip" -P ../bios/geolith/
 echo
 echo "SNK NEO-GEO CD"
 echo
@@ -697,10 +669,6 @@ echo "SAMMY ATOMISWAVE"
 echo
 wget -c "${RUTA}bios/dc/awbios.zip" -P ../bios/dc/
 echo
-echo "SATELLAVIEW"
-echo
-wget -c "${RUTA}bios/BS-X.bin" -P ../bios
-echo
 echo "SCORPION 256K (ZX SPECTRUM CLONE)"
 echo
 wget -c "${RUTA}bios/fuse/256s-0.rom" -P ../bios/fuse/
@@ -711,43 +679,69 @@ wget -c "${RUTA}bios/fuse/256s-2.rom" -P ../bios/fuse/
 echo
 wget -c "${RUTA}bios/fuse/256s-3.rom" -P ../bios/fuse/
 echo
+echo "SEGA DREAMCAST"
+echo
+#wget -c "${RUTA}bios/dc_boot.bin" -P ../bios
+echo
+#wget -c "${RUTA}bios/dc_flash.bin" -P ../bios/
+echo
+wget -c "${RUTA}bios/dc/dc_boot.bin" -P ../bios/dc/
+echo
+wget -c "${RUTA}bios/dc/dc_flash.bin" -P ../bios/dc/
+echo
 echo "SEGA GAMEGEAR"
 echo
-wget -c "${RUTA}bios/bios.gg" -P ../bios/
+wget -c "${RUTA}bios/bios.gg" -P ../bios/gamegear/
 echo
 echo "SEGA MEGA CD"
 echo
-wget -c "${RUTA}bios/bios_CD_E.bin" -P ../bios/
+wget -c "${RUTA}bios/bios_CD_E.bin" -P ../bios/sgeacd/
 echo
-wget -c "${RUTA}bios/bios_CD_U.bin" -P ../bios/
+wget -c "${RUTA}bios/bios_CD_U.bin" -P ../bios/segacd/
 echo
-wget -c "${RUTA}bios/bios_CD_J.bin" -P ../bios/
+wget -c "${RUTA}bios/bios_CD_J.bin" -P ../bios/segacd/
 echo
 echo "SEGA MASTERSYSTEM"
 echo
-wget -c "${RUTA}bios/bios_E.sms" -P ../bios/
+wget -c "${RUTA}bios/bios_E.sms" -P ../bios/mastersystem/
 echo
-wget -c "${RUTA}bios/bios_U.sms" -P ../bios/
+wget -c "${RUTA}bios/bios_U.sms" -P ../bios/mastersystem/
 echo
-wget -c "${RUTA}bios/bios_J.sms" -P ../bios/
+wget -c "${RUTA}bios/bios_J.sms" -P ../bios/mastersystem/
 echo
 echo "SEGA MEGADRIVE/GENESIS"
 echo
-wget -c "${RUTA}bios/bios_MD.bin" -P ../bios/
+wget -c "${RUTA}bios/bios_MD.bin" -P ../bios/megadrive/
+echo
+echo "SEGA NAOMI"
+echo
+wget -c "${RUTA}bios/dc/naomi.zip" -P ../bios/dc/
+echo
+wget -c "${RUTA}bios/dc/airlbios.zip" -P ../bios/dc/
+echo
+wget -c "${RUTA}bios/dc/hod2bios.zip" -P ../bios/dc/
+echo
+echo "SEGA NAOMI 2"
+echo
+wget -c "${RUTA}bios/dc/naomi2.zip" -P ../bios/dc/
+ECHO
+echo "SEGA NAOMI GD-ROM"
+echo
+wget -c "${RUTA}bios/dc/naomigd.zip" -P ../bios/dc/
 echo
 echo "SEGA SATURN"
 echo
-wget -c "${RUTA}bios/saturn_bios.bin" -P ../bios/
+wget -c "${RUTA}bios/saturn_bios.bin" -P ../bios/saturn/
 echo
-wget -c "${RUTA}bios/stvbios.zip" -P ../bios/
+wget -c "${RUTA}bios/stvbios.zip" -P ../bios/saturn/
 echo
-wget -c "${RUTA}bios/sega_101.bin" -P ../bios/
+wget -c "${RUTA}bios/sega_101.bin" -P ../bios/saturn/
 echo
-wget -c "${RUTA}bios/mpr-17933.bin" -P ../bios/
+wget -c "${RUTA}bios/mpr-17933.bin" -P ../bios/saturn/
 echo
-wget -c "${RUTA}bios/mpr-18811-mx.ic1" -P ../bios/
+wget -c "${RUTA}bios/mpr-18811-mx.ic1" -P ../bios/saturn/
 echo
-wget -c "${RUTA}bios/mpr-19367-mx.ic1" -P ../bios/
+wget -c "${RUTA}bios/mpr-19367-mx.ic1" -P ../bios/saturn/
 echo
 echo "SHARP X1"
 echo
@@ -767,6 +761,32 @@ wget -c "${RUTA}bios/keropi/iplromco.dat" -P ../bios/keropi/
 echo
 wget -c "${RUTA}bios/keropi/iplromxv.dat" -P ../bios/keropi/
 echo
+echo "SONY PLAYSTATION"
+echo
+wget -c "${RUTA}bios/scph5500.bin" -P ../bios/
+echo
+wget -c "${RUTA}bios/scph5501.bin" -P ../bios/
+echo
+wget -c "${RUTA}bios/scph5502.bin" -P ../bios/
+echo
+wget -c "${RUTA}bios/scph101.bin" -P ../bios/
+echo
+wget -c "${RUTA}bios/scph7001.bin" -P ../bios/
+echo
+wget -c "${RUTA}bios/scph1001.bin" -P ../bios/
+echo
+wget -c "${RUTA}bios/ps1_rom.bin" -P ../bios/
+echo
+echo "SONY PLAYSTATION 2"
+echo
+wget -c "${RUTA}bios/ps2/ps2-0230a-20080220.bin" -P ../bios/ps2/
+echo
+wget -c "${RUTA}bios/ps2/ps2-0230e-20080220.bin" -P ../bios/ps2/
+echo
+wget -c "${RUTA}bios/ps2/ps2-0230h-20080220.bin" -P ../bios/ps2/
+echo
+wget -c "${RUTA}bios/ps2/ps2-0230j-20080220.bin" -P ../bios/ps2/
+echo
 echo "SPECTRAVIDEO"
 echo
 echo "svi328.rom by default came in the OS"
@@ -785,13 +805,9 @@ echo "svi806.rom by default came in the OS"
 echo
 echo "svi328.rom by default came in the OS"
 echo
-echo "SUFAMI TURBO"
-echo
-wget -c "${RUTA}bios/STBIOS.bin" -P ../bios/
-echo
 echo "SUPER CASSETTE VISION"
 echo
-wget -c "${RUTA}bios/upd7801g.s01" -P ../bios/
+wget -c "${RUTA}bios/upd7801g.s01" -P ../bios/scv/
 echo
 echo "TRS-80 COLOR COMPUTER 1/2"
 echo
@@ -855,18 +871,10 @@ wget -c "${RUTA}bios/ti994a/spchrom.bin" -P ../bios/ti994a/
 echo
 wget -c "${RUTA}bios/ti994a/ti-disk.ctg" -P ../bios/ti994a/
 echo
-echo "VIDEOPAC+"
-echo
-wget -c "${RUTA}bios/g7400.bin" -P ../bios/
-echo
-wget -c "${RUTA}bios/jopac.bin" -P ../bios/
-echo
 echo
 sleep 1
 echo "Al fin, Copiadas todas las BIOS--Cool we finish"
 echo
-
-
 echo "Reinicia tu Raspberry Pi y Disfruta--Reboot and Enjoy"
 echo "Saludos desde Raspberry Pi Buenos Aires"
 echo
