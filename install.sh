@@ -15,9 +15,10 @@ RUTA=https://raw.githubusercontent.com/PIBSAS/Recalbox9.2-Pulstar/main/
 echo "Limpiando las bios basura que te descargaste de otro lado o las mismas si se te corto internet"
 echo "Cleaning the garbage bios downloaded from other sites or from this site but if you internet shutdown in the process"
 rm ../roms/neogeo/neogeo.zip
+rm ../bios/geolith/neogeo.zip
+rm ../bios/geolith/aes.zip
 rm ../bios/3do/3do_arcade_saot.bin
 rm ../bios/atari5200/5200.rom
-#rm ../bios/64DD_IPL.bin
 rm ../bios/atari7800/"7800 BIOS (U).rom"
 rm ../bios/atari7800/"7800 BIOS (E).rom"
 rm ../bios/apple2gs1.rom
@@ -40,8 +41,6 @@ rm ../bios//mastersystem/bios_U.sms
 rm ../bios/palm/bootloader-dbvz.rom
 rm ../bios/satellaview/BS-X.bin
 rm ../bios/o2em/c52.bin
-#rm ../bios/dc_boot.bin
-#rm ../bios/dc_flash.bin
 rm ../bios/fds/disksys.rom
 rm ../bios/intellivision/exec.bin
 rm ../bios/nds/firmware.bin
@@ -629,15 +628,15 @@ wget -c "${RUTA}bios/jopac.bin" -P ../bios/o2em/
 echo
 echo "SNK NEO-GEO"
 echo
-wget -c "${RUTA}roms/neogeo.zip" -P ../roms/neogeo/
+wget -c "${RUTA}roms/neogeo/neogeo.zip" -P ../roms/neogeo/
 echo
 wget -c "${RUTA}bios/geolith/aes.zip" -P ../bios/geolith/
 echo
-wget -c "${RUTA}roms/neogeo.zip" -P ../bios/geolith/
+wget -c "${RUTA}roms/neogeo/neogeo.zip" -P ../bios/geolith/
 echo
 echo "SNK NEO-GEO CD"
 echo
-wget -c "${RUTA}roms/neogeo.zip" -P ../bios/
+wget -c "${RUTA}roms/neogeo/neogeo.zip" -P ../bios/
 echo
 wget -c "${RUTA}bios/neocdz.zip" -P ../bios/
 echo
