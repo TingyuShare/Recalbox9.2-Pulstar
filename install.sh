@@ -155,7 +155,7 @@ rm ../bios/fuse/256s-2.rom
 rm ../bios/fuse/256s-3.rom
 rm ../bios/fuse/gluck.rom
 rm ../bios/fuse/trdos.rom
-rm ../bios/gamecube:/EUR/IPL.bin
+rm ../bios/gamecube/EUR/IPL.bin
 rm ../bios/gamecube/JAP/IPL.bin
 rm ../bios/gamecube/USA/IPL.bin
 rm ../bios/keropi/iplrom30.dat
