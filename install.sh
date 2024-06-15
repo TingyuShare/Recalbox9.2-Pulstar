@@ -637,7 +637,7 @@ wget -c "${RUTA}roms/neogeo.zip" -P ../bios/geolith/
 echo
 echo "SNK NEO-GEO CD"
 echo
-wget -c "${RUTA}bios/neogeo.zip" -P ../bios/
+wget -c "${RUTA}roms/neogeo.zip" -P ../bios/
 echo
 wget -c "${RUTA}bios/neocdz.zip" -P ../bios/
 echo
@@ -695,7 +695,7 @@ wget -c "${RUTA}bios/bios.gg" -P ../bios/gamegear/
 echo
 echo "SEGA MEGA CD"
 echo
-wget -c "${RUTA}bios/bios_CD_E.bin" -P ../bios/sgeacd/
+wget -c "${RUTA}bios/bios_CD_E.bin" -P ../bios/segacd/
 echo
 wget -c "${RUTA}bios/bios_CD_U.bin" -P ../bios/segacd/
 echo
