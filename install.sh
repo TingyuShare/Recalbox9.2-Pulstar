@@ -102,7 +102,7 @@ rm ../bios/stvbios.zip
 rm ../bios/syscard1.pce
 rm ../bios/syscard2.pce
 rm ../bios/syscard3.pce
-rm ../bios/tos.img
+rm ../bios/atarist/tos.img
 rm ../bios/upd7801g.s01
 rm ../bios/atarist/falcon.img
 rm ../bios/atarist/megaste.img
@@ -312,7 +312,7 @@ wget -c "${RUTA}bios/lynxboot.img" -P ../bios/lynx/
 echo
 echo "ATARI ST/STTE/MEGASTE/TT/FALCON"
 echo
-wget -c "${RUTA}bios/tos.img" -P ../bios/
+wget -c "${RUTA}bios/tos.img" -P ../bios/atarist/
 echo
 wget -c "${RUTA}bios/atarist/st.img" -P ../bios/atarist/
 echo
