@@ -723,7 +723,7 @@ echo
 echo "SEGA NAOMI 2"
 echo
 wget -c "${RUTA}bios/dc/naomi2.zip" -P ../bios/dc/
-ECHO
+echo
 echo "SEGA NAOMI GD-ROM"
 echo
 wget -c "${RUTA}bios/dc/naomigd.zip" -P ../bios/dc/
