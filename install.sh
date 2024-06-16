@@ -486,9 +486,9 @@ wget -c "${RUTA}bios/syscard1.pce" -P ../bios/pcenginecd/
 echo
 wget -c "${RUTA}bios/syscard2.pce" -P ../bios/pcenginecd/
 echo
-wget -c "${RUTA}bios/syscard2u.pce" -P ../bios/pcenginecd/
+wget -c "${RUTA}bios/pcenginecd/syscard2u.pce" -P ../bios/pcenginecd/
 echo
-wget -c "${RUTA}bios/syscard3u.pce" -P ../bios/pcenginecd/
+wget -c "${RUTA}bios/pcenginecd/syscard3u.pce" -P ../bios/pcenginecd/
 echo
 echo "gexpress.pce already downloaded is the same of NEC PC-ENGINE"
 echo
