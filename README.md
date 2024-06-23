@@ -1,4 +1,4 @@
-#                                  <h1 align="center"> Recalbox-9.2-Pulstar-Bios 2024</h1>
+#                                  <h1 align="center"> Recalbox-9.2(& 9.2.1)-Pulstar-Bios 2024</h1>
 <p align="center">
 Las Bios Correctas y necesarias para Recalbox-Pulstar 9.2 y el fix 9.2.1, sin archivos innecesarios.
 </p>
