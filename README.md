@@ -1,9 +1,9 @@
 #                                  <h1 align="center"> Recalbox-9.2-Pulstar-Bios 2024</h1>
 <p align="center">
-Las Bios Correctas y necesarias para Recalbox-Pulstar 9.2, sin archivos innecesarios.
+Las Bios Correctas y necesarias para Recalbox-Pulstar 9.2 y el fix 9.2.1, sin archivos innecesarios.
 </p>
 <p align="center">
-Bios Recalbox-Pulstar 9.2 without unnecessary files.
+Bios Recalbox-Pulstar 9.2 and the fix 9.2.1 without unnecessary files.
 </p>
 <p align="center">
 <img src="https://raw.githubusercontent.com/PIBSAS/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
