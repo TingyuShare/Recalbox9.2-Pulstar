@@ -30,7 +30,7 @@ curl -sSL https://raw.githubusercontent.com/PIBSAS/Recalbox9.2-Pulstar/main/inst
 ```
 
 # Tutorial: Retroconsolas
-https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
+https://sites.google.com/view/lucianostech/retro-consolas
 
 <h1 align="center"> Invite a Coffee</h1>
 <p align="center">
@@ -43,4 +43,4 @@ https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
 </p>
 
 # Tutorial: Crea tu propio Joystick Arcade con Pro-Micro mejor que Zero Delay
-https://sites.google.com/view/raspberrypibuenosaires/joystick-arcade
+https://sites.google.com/view/lucianostech/joystick-arcade
