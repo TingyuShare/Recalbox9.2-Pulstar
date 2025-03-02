@@ -13,9 +13,11 @@ Bios Recalbox-Pulstar 9.2 and the fix 9.2.1, 9.2.3 without unnecessary files.
 # Instalacion fácil:
 
 Salimos con `ALT+F4` de EmulationStation y vamos a la terminal de Recalbox con `ALT+F2` e iniciamos sesion:
+Desde la version 9.2.3 esto ya no es posible, asi que por SSH.
 
 # Easy install:
 Exit from EmulationStation with `ALT+F4` then press `ALT+F2` to go top Recalbox Terminal:
+Since 9.2.3 this is not possible so SSH. 
 
 # Login:
 
